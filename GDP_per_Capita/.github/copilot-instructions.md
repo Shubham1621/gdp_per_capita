@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+This project is for fetching, analyzing, and visualizing comprehensive economic data (GDP per capita nominal, GDP per capita PPP, sectoral composition, budget deficit, labor force, etc.) for all countries, and displaying it on a dashboard using Docker. Data sources include APIs (World Bank, IMF, UN) and Wikipedia scraping. The dashboard should allow interactive exploration and comparison of economic indicators.
