@@ -42,7 +42,7 @@ def chatgpt_response(prompt, api_key=None):
         return f"[OpenAI API error: {e}]"
 
 # --- Sidebar: OpenAI API Key ---
-openai_api_key = 'your_api'
+openai_api_key = st.sidebar.text_input('Enter your OpenAI API key:', type='password')
 
 # --- AI Chat Box (on all pages) ---
 with st.sidebar.expander('💬 AI Chat about the Data'):
