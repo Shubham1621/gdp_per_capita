@@ -1,0 +1,61 @@
+
+    body, .stApp {
+        background: #f5f6fa !important;
+        color: #222 !important;
+        font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif !important;
+    }
+    .stButton>button, .stTextInput>div>input, .stSelectbox>div>div>div>input, .stMultiSelect>div>div>div>input {
+        border-radius: 12px !important;
+        border: 1px solid #e0e0e0 !important;
+        background: #fff !important;
+        font-size: 1.1rem !important;
+        padding: 0.5em 1em !important;
+        transition: box-shadow 0.2s;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    .stButton>button:hover {
+        box-shadow: 0 4px 16px #0071e340;
+        background: linear-gradient(90deg,#e3e9f7,#f5f6fa 80%);
+    }
+    .stDataFrame, .stTable {
+        border-radius: 16px !important;
+        background: #fff !important;
+        box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+        animation: fadeIn 0.7s;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    .stTabs [data-baseweb="tab"] {
+        font-size: 1.1rem !important;
+        font-weight: 600 !important;
+        color: #222 !important;
+        border-radius: 12px 12px 0 0 !important;
+        background: #f5f6fa !important;
+    }
+    .stTabs [aria-selected="true"] {
+        background: #fff !important;
+        color: #0071e3 !important;
+        border-bottom: 2px solid #0071e3 !important;
+    }
+    .stMarkdown, .stCaption, .stHeader, .stSubheader {
+        color: #222 !important;
+    }
+    .stMetric {
+        background: #fff !important;
+        border-radius: 12px !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        padding: 1em !important;
+        animation: fadeIn 0.7s;
+    }
+    .dark-mode body, .dark-mode .stApp {
+        background: #181a1b !important;
+        color: #f5f6fa !important;
+    }
+    .dark-mode .stDataFrame, .dark-mode .stTable, .dark-mode .stMetric {
+        background: #23272e !important;
+        color: #f5f6fa !important;
+        box-shadow: 0 2px 16px #00000040;
+    }
+    
