@@ -1,0 +1,20 @@
+indicator_name,indicator_code,description
+gdp_per_capita_nominal,NY.GDP.PCAP.CD,GDP per capita (current US$)
+gdp_per_capita_ppp,NY.GDP.PCAP.PP.CD,"GDP per capita, PPP (current international $)"
+gdp_nominal,NY.GDP.MKTP.CD,GDP (current US$)
+gdp_ppp,NY.GDP.MKTP.PP.CD,"GDP, PPP (current international $)"
+inflation,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)"
+unemployment,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force)"
+labor_force,SL.TLF.TOTL.IN,"Labor force, total"
+exports,NE.EXP.GNFS.CD,Exports of goods and services (current US$)
+imports,NE.IMP.GNFS.CD,Imports of goods and services (current US$)
+fdi,BX.KLT.DINV.CD.WD,"Foreign direct investment, net inflows (BoP, current US$)"
+reserves,FI.RES.TOTL.CD,"Total reserves (includes gold, current US$)"
+budget_deficit,GC.BAL.CASH.GD.ZS,Cash surplus/deficit (% of GDP)
+population,SP.POP.TOTL,"Population, total"
+life_expectancy,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)"
+govt_debt_gdp,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)"
+current_account_gdp,BN.CAB.XOKA.GD.ZS,Current account balance (% of GDP)
+poverty_headcount,SI.POV.DDAY,Poverty headcount ratio at $2.15 a day (2017 PPP) (% of population)
+education_gdp,SE.XPD.TOTL.GD.ZS,Government expenditure on education (% of GDP)
+health_gdp,SH.XPD.CHEX.GD.ZS,Current health expenditure (% of GDP)
