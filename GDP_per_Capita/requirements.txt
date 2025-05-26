@@ -3,8 +3,3 @@ pandas
 plotly
 iso3166
 numpy
-scikit-learn
-statsmodels
-seaborn
-matplotlib
-duckdb
