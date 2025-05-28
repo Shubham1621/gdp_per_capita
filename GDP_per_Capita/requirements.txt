@@ -3,3 +3,7 @@ pandas
 plotly
 iso3166
 numpy
+openai
+web3
+airflow
+requests
